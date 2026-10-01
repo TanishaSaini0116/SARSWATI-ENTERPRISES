@@ -5,7 +5,7 @@ import { Phone, MessageCircle } from 'lucide-react';
 export const WhatsAppButton = () => {
   return (
     <a
-      href="https://wa.me/919876543210"
+      href="https://wa.me/919571725256"
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-24 lg:bottom-8 right-6 z-50 bg-[#25D366] text-white p-4 rounded-full shadow-xl hover:scale-110 hover:shadow-2xl transition-all duration-300 flex items-center justify-center group"
@@ -23,7 +23,7 @@ export const MobileCTA = () => {
   return (
     <div className="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-white border-t border-gray-200 shadow-[0_-4px_6px_-1px_rgb(0,0,0,0.1)] flex">
       <a
-        href="tel:+919876543210"
+        href="tel:+919571725256"
         className="flex-1 flex flex-col items-center justify-center py-3 text-primary font-semibold hover:bg-soft-bg"
       >
         <Phone className="w-5 h-5 mb-1" />

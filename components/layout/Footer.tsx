@@ -100,8 +100,8 @@ export const Footer = () => {
           <div>
             <h3 className="font-bold text-black mb-6">Connect With Us</h3>
             <ul className="space-y-2 mb-6">
-              <li className="text-sm text-black">info@saraswatienterprises.com</li>
-              <li className="text-sm text-black">+91 99999 99999</li>
+              <li className="text-sm text-black">saraswatienterprises256@gmail.com</li>
+              <li className="text-sm text-black">+91 95717 25256</li>
             </ul>
             <div className="flex items-center gap-3">
               {/* LinkedIn - Original Color */}

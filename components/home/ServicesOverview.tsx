@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 import { SectionWrapper } from '../shared/SectionWrapper';
 import { CTAButton } from '../shared/CTAButton';
-import { ArrowRight, ArrowLeft, Bookmark, Leaf } from 'lucide-react';
+import { ArrowRight, ArrowLeft, Bookmark } from 'lucide-react';
 
 const coreServices = [
   {
@@ -90,10 +90,6 @@ export const ServicesOverview = () => {
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
           </motion.div>
         </AnimatePresence>
-
-        {/* Ambient green glow and leaf graphic for sustainability */}
-        <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-green-500/20 rounded-full blur-[150px] pointer-events-none z-0 translate-x-1/4 -translate-y-1/4" />
-        <Leaf className="absolute top-10 right-10 w-[400px] h-[400px] text-green-300 opacity-[0.05] pointer-events-none z-0 rotate-45" strokeWidth={0.5} />
 
         {/* Main Content Area */}
         <div className="relative z-10 w-full h-full max-w-7xl mx-auto px-6 md:px-12 flex flex-col justify-center">

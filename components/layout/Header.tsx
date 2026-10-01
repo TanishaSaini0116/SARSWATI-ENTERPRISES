@@ -133,7 +133,7 @@ export const Header = () => {
           <div className="hidden lg:flex items-center gap-4">
             <div className="flex items-center gap-2 text-primary font-semibold text-sm mr-2">
               <PhoneCall className="w-4 h-4 text-accent" />
-              <span>+91 98765 43210</span>
+              <span>+91 95717 25256</span>
             </div>
             <CTAButton href="/contact" variant="primary">
               Get Quote

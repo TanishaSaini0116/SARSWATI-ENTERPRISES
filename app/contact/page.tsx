@@ -29,7 +29,7 @@ export default function ContactPage() {
               </div>
               <div>
                 <h4 className="font-bold text-primary mb-1">Phone</h4>
-                <p className="text-text-muted">+91 98765 43210 <br />+91 11 2345 6789</p>
+                <p className="text-text-muted">+91 95717 25256</p>
               </div>
             </div>
 
@@ -39,7 +39,7 @@ export default function ContactPage() {
               </div>
               <div>
                 <h4 className="font-bold text-primary mb-1">Email</h4>
-                <p className="text-text-muted">info@saraswatienterprises.com <br />sales@saraswatienterprises.com</p>
+                <p className="text-text-muted">saraswatienterprises256@gmail.com</p>
               </div>
             </div>
           </div>

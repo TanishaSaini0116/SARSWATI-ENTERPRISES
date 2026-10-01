@@ -5,7 +5,7 @@ import React, { useRef } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { ArrowRight, ShieldCheck, Waves } from "lucide-react";
+import { ArrowRight, ShieldCheck } from "lucide-react";
 
 if (typeof window !== "undefined") {
   gsap.registerPlugin(ScrollTrigger, useGSAP);
@@ -142,10 +142,6 @@ export function TrustedClients() {
           ))}
         </div>
       </div>
-
-      {/* Ambient glow and cutout behind visual row */}
-      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[1200px] h-[400px] bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-slate-300/50 to-transparent blur-[100px] opacity-15 pointer-events-none" />
-      <Waves className="absolute bottom-4 left-[20%] w-[400px] h-[400px] text-slate-300 opacity-[0.05] pointer-events-none rotate-6" strokeWidth={0.5} />
 
       {/* 3. Three-column visual row */}
       <div ref={visualRowRef} className="relative w-full max-w-[1400px] mx-auto h-[450px] flex items-center justify-center gap-6 lg:gap-8 px-4 md:px-12">

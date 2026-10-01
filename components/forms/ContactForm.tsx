@@ -38,7 +38,7 @@ export const ContactForm = () => {
         <FormField label="Email Address" type="email" name="email" required placeholder="john@company.com" />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <FormField label="Phone Number" type="tel" name="phone" required placeholder="+91 98765 43210" />
+        <FormField label="Phone Number" type="tel" name="phone" required placeholder="+91 95717 25256" />
         <FormField label="Company (Optional)" name="company" placeholder="Your Company Name" />
       </div>
       <FormField 

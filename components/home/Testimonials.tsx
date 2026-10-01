@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence, Variants } from 'framer-motion';
 // import { SectionWrapper } from '../shared/SectionWrapper';
-import { Star, ChevronLeft, ChevronRight, Droplet } from 'lucide-react';
+import { Star, ChevronLeft, ChevronRight } from 'lucide-react';
 
 // Helper functions to convert 1536x696 design coordinates to responsive percentages
 const pxX = (px: number) => `${(px / 1536) * 100}%`;
@@ -112,10 +112,7 @@ export const Testimonials = () => {
   ];
 
   return (
-    <section className="w-full bg-slate-50/70 overflow-hidden pt-4 pb-16 md:pt-8 md:pb-20 relative">
-      {/* Ambient water droplet top-right */}
-      <Droplet className="absolute -top-10 -right-10 w-96 h-96 text-slate-400 opacity-[0.04] pointer-events-none rotate-12" strokeWidth={1} />
-      
+    <section className="w-full bg-white overflow-hidden pt-4 pb-16 md:pt-8 md:pb-20 relative">
       {/* 1. Desktop Collage Layout */}
       <div 
         className="w-full justify-center mb-4 md:mb-8 relative hidden lg:flex"

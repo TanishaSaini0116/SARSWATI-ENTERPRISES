@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { SectionWrapper } from '../shared/SectionWrapper';
-import { ChevronRight, Droplet } from 'lucide-react';
+import { ChevronRight } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -43,10 +43,7 @@ const SEGMENTS = [
 export const SegmentRouter = () => {
   return (
     <SectionWrapper bg="white" className="relative z-30 pt-32 pb-32 overflow-hidden bg-[#FAFAFA]">
-      <div className="absolute top-0 left-0 w-[600px] h-[600px] bg-blue-300 rounded-full mix-blend-multiply filter blur-[150px] opacity-10 pointer-events-none -translate-x-1/4 -translate-y-1/4" />
-      <Droplet className="absolute top-10 left-10 w-96 h-96 text-blue-200 opacity-[0.05] pointer-events-none -rotate-12" strokeWidth={1} />
-      
-      <div className="max-w-7xl mx-auto w-full relative z-10">
+      <div className="max-w-7xl mx-auto w-full">
         
         {/* Main Header */}
         <div className="flex flex-col items-center text-center mb-24 px-4">
